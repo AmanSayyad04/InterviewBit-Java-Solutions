@@ -5,7 +5,7 @@ public class Solution {
     int n = arrive.size();
     int currBookingCount = 1;
     int maxBookingCount = 1;
-    int arriveIdx = 1;
+    int arriveIdx = 0;
     int departIdx = 0;
     while (arriveIdx < n && departIdx < n) {
       if (arrive.get(arriveIdx) < depart.get(departIdx)) {
